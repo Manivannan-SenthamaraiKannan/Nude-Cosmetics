@@ -1,0 +1,20 @@
+.announcement{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #ae7c82;
+    color: #fff1dc;
+    padding: 0.5rem 0.5rem;
+}
+
+.announcement p{
+    margin-bottom: 0;
+}
+
+.carousel slide{
+    background-position: center center;
+    height: 600px;
+    width: 600px;
+}
