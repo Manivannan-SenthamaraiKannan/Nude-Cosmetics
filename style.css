@@ -1,20 +1,36 @@
-.announcement{
+
+.navbar-brand{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    background-color: #ae7c82;
-    color: #fff1dc;
-    padding: 0.5rem 0.5rem;
-}
-
-.announcement p{
+    align-content: center;
+    padding: 0.1rem;
+    margin-left: 3rem;
     margin-bottom: 0;
 }
 
-.carousel slide{
-    background-position: center center;
-    height: 600px;
-    width: 600px;
+.mid-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    align-content: center;
+    padding-right: 6rem;
+}
+
+.fav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 3rem;
+    margin: 0 auto;
+    align-content: center;
+    width: 1%;
+}
+
+i{
+    padding: 0.5rem 1rem;
 }
